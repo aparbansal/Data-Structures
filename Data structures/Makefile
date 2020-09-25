@@ -1,6 +1,6 @@
 CC = g++ -std=c++11
 #OPT = -O3 -m32
-OPT = -Og -m32
+OPT = -Og -m64
 WARN = -Wall
 CFLAGS = $(OPT) $(WARN) $(INC) $(LIB)
 
